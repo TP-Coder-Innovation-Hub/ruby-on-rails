@@ -1,4 +1,4 @@
-# Sequential, Decision, Iteration `[Entry]`
+# Sequential, Decision, Iteration 
 
 ## The Three Building Blocks
 

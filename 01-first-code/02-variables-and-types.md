@@ -1,4 +1,4 @@
-# Variables and Types `[Entry]`
+# Variables and Types 
 
 ## Variables
 

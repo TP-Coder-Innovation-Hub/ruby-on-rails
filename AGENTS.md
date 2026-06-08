@@ -16,7 +16,7 @@ This repository contains educational content for the "Ruby on Rails Developer" l
 
 - Reference Rails 8 features and conventions when generating code examples
 - Use Ruby 3.3+ syntax and idioms (endless methods, pattern matching, data classes where relevant)
-- Tag content with `[Entry]`, `[Mid]`, or `[Senior]` level indicators when adding new sections
+- Tag content with , , or  level indicators when adding new sections
 - Prefer built-in Rails solutions over third-party gems when both are viable
 - Use RSpec conventions for test examples
 - Include Mermaid diagrams for architecture and flow explanations

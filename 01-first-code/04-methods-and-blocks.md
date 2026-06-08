@@ -1,4 +1,4 @@
-# Methods and Blocks `[Entry]`
+# Methods and Blocks 
 
 ## Methods
 

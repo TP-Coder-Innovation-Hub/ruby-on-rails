@@ -1,4 +1,4 @@
-# What Is Programming? `[Entry]`
+# What Is Programming? 
 
 ## Code Gives Instructions to a Machine
 

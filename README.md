@@ -14,12 +14,12 @@ A structured, opinionated path from zero to production Rails developer.
 
 | # | Module | Topics | Level |
 |---|--------|--------|-------|
-| 00 | [Foundations](00-foundations/) | Programming concepts, Ruby history, paradigm comparison | `[Entry]` |
-| 01 | [First Code](01-first-code/) | Setup, variables, control flow, methods, OOP basics | `[Entry]` |
-| 02 | [Core Ruby](02-core-ruby/) | Collections, error handling, gems, metaprogramming | `[Mid]` |
-| 03 | [Rails Fundamentals](03-rails-fundamentals/) | MVC, routing, Active Record, Hotwire | `[Mid]` |
-| 04 | [Production](04-production/) | Testing, auth, background jobs, deployment | `[Senior]` |
-| 05 | [Capstone](05-capstone/) | Full application project | `[Senior]` |
+| 00 | [Foundations](00-foundations/) | Programming concepts, Ruby history, paradigm comparison |  |
+| 01 | [First Code](01-first-code/) | Setup, variables, control flow, methods, OOP basics |  |
+| 02 | [Core Ruby](02-core-ruby/) | Collections, error handling, gems, metaprogramming |  |
+| 03 | [Rails Fundamentals](03-rails-fundamentals/) | MVC, routing, Active Record, Hotwire |  |
+| 04 | [Production](04-production/) | Testing, auth, background jobs, deployment |  |
+| 05 | [Capstone](05-capstone/) | Full application project |  |
 
 ## Prerequisites
 
@@ -30,8 +30,8 @@ A structured, opinionated path from zero to production Rails developer.
 
 ## Conventions
 
-- `[Entry]` — No prior experience assumed
-- `[Mid]` — Comfortable with basic programming concepts
-- `[Senior]` — Ready for production-grade patterns
+-  — No prior experience assumed
+-  — Comfortable with basic programming concepts
+-  — Ready for production-grade patterns
 
 Start at `00-foundations/01-what-is-programming.md` or jump to any module that matches your level.

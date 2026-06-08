@@ -1,4 +1,4 @@
-# Compiler vs Interpreter `[Entry]`
+# Compiler vs Interpreter 
 
 ## Two Ways to Run Code
 

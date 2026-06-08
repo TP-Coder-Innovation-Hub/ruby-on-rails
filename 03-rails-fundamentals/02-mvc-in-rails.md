@@ -1,4 +1,4 @@
-# MVC in Rails `[Mid]`
+# MVC in Rails 
 
 ## What Is MVC?
 
@@ -11,6 +11,8 @@ Model-View-Controller is an architectural pattern that separates an application 
 ## Request Lifecycle
 
 When a user visits `https://example.com/posts/1`, here is what happens:
+
+> 🖼️ **[IMAGE_PLACEHOLDER]** — Rails MVC request lifecycle browser router controller model view
 
 ```mermaid
 sequenceDiagram

@@ -1,4 +1,4 @@
-# Classes and Modules `[Entry]`
+# Classes and Modules 
 
 ## Classes
 

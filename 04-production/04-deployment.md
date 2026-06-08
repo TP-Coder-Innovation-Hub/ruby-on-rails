@@ -1,4 +1,4 @@
-# Deployment `[Senior]`
+# Deployment 
 
 ## Kamal 2: The Rails 8 Default
 

@@ -1,4 +1,4 @@
-# Collections `[Mid]`
+# Collections 
 
 ## Why Collections Matter
 

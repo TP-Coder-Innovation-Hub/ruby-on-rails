@@ -1,4 +1,4 @@
-# Authentication `[Senior]`
+# Authentication 
 
 ## What Authentication Provides
 

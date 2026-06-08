@@ -1,4 +1,4 @@
-# Error Handling `[Mid]`
+# Error Handling 
 
 ## Basic Pattern: begin / rescue / ensure
 

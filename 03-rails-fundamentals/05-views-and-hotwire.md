@@ -1,4 +1,4 @@
-# Views and Hotwire `[Mid]`
+# Views and Hotwire 
 
 ## ERB Basics
 

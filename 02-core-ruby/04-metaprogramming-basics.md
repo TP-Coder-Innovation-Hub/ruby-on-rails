@@ -1,4 +1,4 @@
-# Metaprogramming Basics `[Mid]`
+# Metaprogramming Basics 
 
 ## What Is Metaprogramming?
 
@@ -77,6 +77,8 @@ User.new(name: "Alice")  # `name=` method exists because Rails generated it
 ## method_missing
 
 Intercept calls to methods that do not exist:
+
+> 🖼️ **[IMAGE_PLACEHOLDER]** — Ruby metaprogramming method_missing dynamic method dispatch
 
 ```ruby
 class DynamicFinder

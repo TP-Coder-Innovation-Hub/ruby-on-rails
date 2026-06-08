@@ -1,4 +1,4 @@
-# Rails Philosophy `[Mid]`
+# Rails Philosophy 
 
 ## Convention over Configuration
 
@@ -12,6 +12,8 @@ What this means in practice:
 - The primary key is `id`. Timestamps are `created_at` and `updated_at`
 
 You do not configure these mappings. They happen because you followed the naming convention.
+
+> 🖼️ **[IMAGE_PLACEHOLDER]** — Rails convention over configuration model table naming convention
 
 ## "The Rails Way"
 

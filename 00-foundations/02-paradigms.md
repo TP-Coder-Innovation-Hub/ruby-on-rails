@@ -1,4 +1,4 @@
-# Programming Paradigms `[Entry]`
+# Programming Paradigms 
 
 ## What Is a Paradigm?
 

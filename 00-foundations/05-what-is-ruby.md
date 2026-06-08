@@ -1,4 +1,4 @@
-# What Is Ruby? `[Entry]`
+# What Is Ruby? 
 
 ## Origin
 
@@ -29,6 +29,8 @@ This is not marketing. It shapes every design decision in the language:
 ## Everything Is an Object
 
 This is not a metaphor. In Ruby, every value is an object with methods.
+
+> 🖼️ **[IMAGE_PLACEHOLDER]** — Ruby everything is an object method call on primitives
 
 ```ruby
 5.even?        # => false

@@ -1,8 +1,10 @@
-# Active Record `[Mid]`
+# Active Record 
 
 ## What Is Active Record?
 
 Active Record is Rails' ORM (Object-Relational Mapper). It maps Ruby classes to database tables and Ruby objects to database rows.
+
+> 🖼️ **[IMAGE_PLACEHOLDER]** — Active Record ORM mapping Ruby class to database table
 
 Convention: a model named `Post` maps to a `posts` table. The table has an `id` primary key, `created_at`, and `updated_at` timestamps.
 

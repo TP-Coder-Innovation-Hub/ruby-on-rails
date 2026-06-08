@@ -1,4 +1,4 @@
-# Gems and Bundler `[Mid]`
+# Gems and Bundler 
 
 ## What Is a Gem?
 

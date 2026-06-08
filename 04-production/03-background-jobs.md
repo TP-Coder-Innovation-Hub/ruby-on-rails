@@ -1,4 +1,4 @@
-# Background Jobs `[Senior]`
+# Background Jobs 
 
 ## Why Background Jobs?
 

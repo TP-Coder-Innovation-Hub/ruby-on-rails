@@ -1,4 +1,4 @@
-# Setup `[Entry]`
+# Setup 
 
 ## Install Ruby with rbenv
 

@@ -1,4 +1,4 @@
-# Why Ruby on Rails? Why Not X? `[Entry]`
+# Why Ruby on Rails? Why Not X? 
 
 ## What Rails Is
 

@@ -1,4 +1,4 @@
-# Testing `[Senior]`
+# Testing 
 
 ## Why Rails Teams Test Extensively
 
