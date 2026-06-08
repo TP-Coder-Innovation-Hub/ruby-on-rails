@@ -2,7 +2,7 @@
 
 ## Context
 
-This repository contains educational content for the "Ruby on Rails Developer" learning path, part of the TP-Coder Innovation Hub curriculum. The content targets developers at Entry, Mid, and Senior levels who want to learn or deepen their understanding of Ruby on Rails for building modern web applications.
+This repository contains educational content for the "Ruby on Rails Developer" learning path, part of the TP-Coder Innovation Hub curriculum. The content is organized as a directory-per-topic structure targeting developers at Entry, Mid, and Senior levels who want to learn or deepen their understanding of Ruby on Rails for building modern web applications.
 
 ## Audience
 
@@ -27,6 +27,8 @@ This repository contains educational content for the "Ruby on Rails Developer" l
 - Default to Solid Queue for background job guidance unless the use case requires Sidekiq
 - Default to Hotwire (Turbo + Stimulus) for frontend interactivity guidance
 - Run `rubocop` checks on any Ruby code changes
+- Keep each file between 200-500 words; short, concise, direct
+- No emojis in generated content
 
 ## How NOT to Help
 
@@ -71,29 +73,37 @@ This repository contains educational content for the "Ruby on Rails Developer" l
 
 ```
 ruby-on-rails/
-  README.md        # Primary educational content (this learning path's core document)
-  AGENTS.md        # Agent instructions and project context
-```
-
-As the learning path grows, the expected structure is:
-
-```
-ruby-on-rails/
-  README.md                    # Fundamentals guide
-  AGENTS.md                    # This file
-  exercises/                   # Hands-on coding exercises
-    01-ruby-basics/
-    02-first-rails-app/
-    03-active-record/
-    04-hotwire-frontend/
-    05-background-jobs/
-    06-deployment/
-  projects/                    # Full application projects
-    blog-app/
-    marketplace/
-    saas-starter/
-  reference/                   # Quick reference materials
-    rails-cheatsheet.md
-    ruby-cheatsheet.md
-    deployment-guide.md
+  README.md                                  # Navigation table + learning objectives
+  AGENTS.md                                  # This file
+  00-foundations/                            # Programming fundamentals and Ruby context
+    01-what-is-programming.md
+    02-paradigms.md
+    03-sequential-decision-iteration.md
+    04-compiler-vs-interpreter.md
+    05-what-is-ruby.md
+    06-why-ruby-rails-why-not-x.md
+  01-first-code/                             # Writing your first Ruby programs
+    01-setup.md
+    02-variables-and-types.md
+    03-control-flow.md
+    04-methods-and-blocks.md
+    05-classes-and-modules.md
+  02-core-ruby/                              # Intermediate Ruby concepts
+    01-collections.md
+    02-error-handling.md
+    03-gems-and-bundler.md
+    04-metaprogramming-basics.md
+  03-rails-fundamentals/                     # Building with Rails
+    01-rails-philosophy.md
+    02-mvc-in-rails.md
+    03-routing-and-controllers.md
+    04-active-record.md
+    05-views-and-hotwire.md
+  04-production/                             # Production-ready patterns
+    01-testing.md
+    02-authentication.md
+    03-background-jobs.md
+    04-deployment.md
+  05-capstone/                               # Full application project
+    README.md
 ```
