@@ -30,7 +30,14 @@ This is not marketing. It shapes every design decision in the language:
 
 This is not a metaphor. In Ruby, every value is an object with methods.
 
-> 🖼️ **[IMAGE_PLACEHOLDER]** — Ruby everything is an object method call on primitives
+```mermaid
+graph LR
+    N["5"] -->|".even?"| R1["true"]
+    S["'hello'"] -->|".length"| R2["5"]
+    A["[1,2,3]"] -->|".map { }"| R3["new array"]
+    N ---|"Everything is an object"| S
+    S ---|"Everything is an object"| A
+```
 
 ```ruby
 5.even?        # => false

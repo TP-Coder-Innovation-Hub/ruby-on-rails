@@ -78,7 +78,14 @@ User.new(name: "Alice")  # `name=` method exists because Rails generated it
 
 Intercept calls to methods that do not exist:
 
-> 🖼️ **[IMAGE_PLACEHOLDER]** — Ruby metaprogramming method_missing dynamic method dispatch
+```mermaid
+flowchart TD
+    Call["obj.unknown_method"] --> Lookup1["Lookup in obj's class"]
+    Lookup1 -->|not found| Lookup2["Lookup in superclass"]
+    Lookup2 -->|not found| MM["method_missing(symbol, *args)"]
+    MM -->|override to handle| Dynamic["Define behavior dynamically"]
+    Dynamic --> R["Result"]
+```
 
 ```ruby
 class DynamicFinder

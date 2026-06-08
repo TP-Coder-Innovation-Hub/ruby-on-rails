@@ -4,7 +4,16 @@
 
 Active Record is Rails' ORM (Object-Relational Mapper). It maps Ruby classes to database tables and Ruby objects to database rows.
 
-> 🖼️ **[IMAGE_PLACEHOLDER]** — Active Record ORM mapping Ruby class to database table
+```mermaid
+graph LR
+    subgraph "Ruby Code"
+        C["class User < ApplicationRecord<br/>  has_many :posts<br/>  validates :name, presence: true<br/>end"]
+    end
+    subgraph "Database"
+        T["users table<br/>id | name | email | created_at"]
+    end
+    C <-->|"ORM maps"| T
+```
 
 Convention: a model named `Post` maps to a `posts` table. The table has an `id` primary key, `created_at`, and `updated_at` timestamps.
 

@@ -13,7 +13,19 @@ What this means in practice:
 
 You do not configure these mappings. They happen because you followed the naming convention.
 
-> 🖼️ **[IMAGE_PLACEHOLDER]** — Rails convention over configuration model table naming convention
+```mermaid
+graph LR
+    subgraph "Convention (Rails way)"
+        M["Model: User"] --> T["Table: users"]
+        M --> PK["Primary key: id"]
+        M --> FK["Foreign key: user_id"]
+    end
+    subgraph "Configuration (other frameworks)"
+        M2["Model: User"] --> XML["XML/YAML config files"]
+        XML --> T2["Table: custom_name"]
+        XML --> PK2["PK: custom_id"]
+    end
+```
 
 ## "The Rails Way"
 

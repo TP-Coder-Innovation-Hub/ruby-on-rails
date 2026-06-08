@@ -12,7 +12,20 @@ Model-View-Controller is an architectural pattern that separates an application 
 
 When a user visits `https://example.com/posts/1`, here is what happens:
 
-> 🖼️ **[IMAGE_PLACEHOLDER]** — Rails MVC request lifecycle browser router controller model view
+```mermaid
+sequenceDiagram
+    participant B as Browser
+    participant R as Router
+    participant C as Controller
+    participant M as Model
+    participant V as View
+    B->>R: GET /users/1
+    R->>C: UsersController#show
+    C->>M: User.find(1)
+    M-->>C: User object
+    C->>V: Render show.html.erb
+    V-->>B: HTML response
+```
 
 ```mermaid
 sequenceDiagram
