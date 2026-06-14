@@ -19,7 +19,7 @@ A structured, opinionated path from zero to production Rails developer.
 | 02 | [Core Ruby](02-core-ruby/) | Collections, error handling, gems, metaprogramming |  |
 | 03 | [Rails Fundamentals](03-rails-fundamentals/) | MVC, routing, Active Record, Hotwire |  |
 | 04 | [Production](04-production/) | Testing, auth, background jobs, deployment |  |
-| 05 | [Capstone](05-capstone/) | Full application project |  |
+| 05 | [Workshop](05-workshop/) | Full application project |  |
 
 ## Prerequisites
 
