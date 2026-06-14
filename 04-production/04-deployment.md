@@ -200,4 +200,4 @@ Kamal deploys to all servers simultaneously. Traefik load-balances between them.
 
 For most Rails applications, Kamal 2 is the right choice. It is the default for a reason.
 
-Move to `05-capstone/README.md` for the final project.
+Move to `05-workshop/README.md` for the final project.
