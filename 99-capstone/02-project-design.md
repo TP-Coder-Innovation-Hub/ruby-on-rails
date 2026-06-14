@@ -1,6 +1,6 @@
 # Workshop Design: Automated Recruitment Pipeline
 
-> Companion to [01-capstone-spec.md](./01-capstone-spec.md). This is a **server-rendered Rails monolith** (Hotwire/Turbo — ADR-003): there is no SPA and no JSON API. The contracts here are Rails routes, page designs, Sidekiq job contracts, and Turbo Stream broadcasts. Code organization follows Rails conventions — that part is *not* yours to reinvent.
+> Companion to [01-workshop-spec.md](./01-workshop-spec.md). This is a **server-rendered Rails monolith** (Hotwire/Turbo — ADR-003): there is no SPA and no JSON API. The contracts here are Rails routes, page designs, Sidekiq job contracts, and Turbo Stream broadcasts. Code organization follows Rails conventions — that part is *not* yours to reinvent.
 
 ## Design Notes (read first)
 
