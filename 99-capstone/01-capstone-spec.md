@@ -1,4 +1,4 @@
-# Capstone Project: Automated Recruitment Pipeline
+# Workshop Project: Automated Recruitment Pipeline
 
 ## Business Context
 
