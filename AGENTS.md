@@ -104,6 +104,6 @@ ruby-on-rails/
     02-authentication.md
     03-background-jobs.md
     04-deployment.md
-  05-capstone/                               # Full application project
+  05-workshop/                               # Full application project
     README.md
 ```
